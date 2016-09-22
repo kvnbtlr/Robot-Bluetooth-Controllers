@@ -12,16 +12,12 @@ class m3pi():
     def __init__(self):
         self.b_array = bytearray(1)
         self.b_array = [0]
-    
-
-
 
 def send_data():
 
     #Create robot object
     robot = m3pi()
-   
-    
+ 
     while 1:
 
         #Wait eighteen milliseconds each iteration

@@ -14,21 +14,11 @@ class m3pi():
         self.b_array = bytearray(1)
         self.b_array = [0]
         
-    
-
 
 def send_data():
- 
-        
- 
-    
     robot = m3pi()
     seven_picked = False
-    
-    
 
-    
-    
     while not seven_picked:
 
         #Wait for twenty milliseconds each iteration
@@ -47,10 +37,6 @@ def send_data():
         five_s = keys[K_5]
         six_s = keys[K_6]
         seven_s = keys[K_7]
-        
-
-        
-        
 
         #Determine which keys are pressed
         
@@ -138,14 +124,6 @@ def send_data():
             print(line.decode("utf-8"))
 
         line = None               
-        
-        
-        
-         
-        
-
- 
-          
         
         pygame.event.pump()
 

@@ -11,10 +11,7 @@ clock = pygame.time.Clock()
 class m3pi():
     def __init__(self):
         self.b_array = bytearray(2)
-    
-
-
-
+ 
 def send_data():
 
     #Create robot object
